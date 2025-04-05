@@ -1,31 +1,6 @@
 .wrapper{
-    max-width: 90%;
     margin: 0 auto;
 }
-
-/* Header and Logo */
-.logo{
-    display:grid;
-    justify-content: center;
-   }
-   .title{
-       text-align: center;
-   }
-   .logo_img{
-       max-width: 100px;
-       display: grid;
-       margin: auto;
-   }
-   .navlist, .navlist li{
-       margin: auto;
-       width: 50%;
-       display: flex;
-       justify-content: space-around;
-       list-style: none;
-       margin-bottom: 2em;
-   }
-   /**/
-
 .intro h1, .intro p{
     width: 50%;
     margin: auto;

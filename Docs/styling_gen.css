@@ -1,0 +1,67 @@
+@import url("variables.css");
+
+body{
+background-color: rgb(175, 111, 111);
+}
+
+.contact_fast{
+    position: absolute;
+    top: 0px;
+    padding: 2em;
+}
+.contact_fast p,
+.title{
+    color: var(--txt_head);
+}
+
+header{
+    background-color: rgb(12, 27, 13);
+    margin-top: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--txt_head);
+}
+
+.logo{
+    display:grid;
+    justify-content: center;
+   }
+   .title{
+       text-align: center;
+   }
+   .logo_img{
+       max-width: 200px;
+       display: grid;
+       margin: auto;
+   }
+   .navlist, .navlist li{
+       margin: auto;
+       width: 50%;
+       display: flex;
+       justify-content: space-around;
+       list-style: none;
+       margin-bottom: 2em;
+   }
+
+footer{
+    background-color: var(--bg_foot);
+    padding: 2em;
+    margin: 0 -2em -2em -2em;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+footer p, footer li{
+    color: var(--txt_foot);
+    list-style: none;      
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
