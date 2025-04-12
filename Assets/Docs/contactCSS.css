@@ -1,0 +1,43 @@
+.wrapper{
+    margin: 0 auto;
+}
+.intro h1, .intro p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.information h3,
+.information p{
+    text-align: center;
+}
+.base_info{
+    width: 30%;
+}
+.location{
+    display: flex;
+}
+.location p{
+    text-align: left;
+    margin-left: 2em;
+}
+.location img{
+    max-width: 300px;
+}
+
+/* Footer */
+footer ul, footer p{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+/**/

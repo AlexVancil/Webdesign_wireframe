@@ -1,0 +1,10 @@
+:root{
+    --bg_body:linear-gradient(#371a6d, #6d1a69);
+    --txt_body:#b3b4f0;
+    --txt_body_title:#ecedff;
+
+    --txt_edge:#ecbd23;
+    --bg_edge:#27003f;
+
+    --btn_home:#3d0261;
+}

@@ -1,0 +1,45 @@
+.wrapper{
+    margin: 0 auto;
+}
+   .intro h1, .intro p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.carousel{
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.service_item{
+    width: 40%;
+
+    margin: auto;
+    margin-bottom: 2em;
+}
+.service_details{
+    display: flex;
+}
+
+.service_item h3{
+    text-align: center;
+}
+.service_item img{
+    max-width: 250px;
+}
+.service_item button{
+    background: var(--btn_home);
+    color: var(--txt_edge);
+    font-size: 1.25em;
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+    transition: all .1s ease;
+}
+.service_item button:hover{
+    scale: 105%;
+    transition: all .1s ease;
+}

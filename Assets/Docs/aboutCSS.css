@@ -1,0 +1,35 @@
+.wrapper{
+    margin: 0 auto;
+}
+
+
+.intro h1, .intro p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.bios{
+    display: grid;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+
+.person{
+    margin-bottom: 2em;
+}
+.person_info{
+    display: flex;
+}
+.person_info img{
+    max-width: 250px;
+}
+.socialmedia{
+    max-width: 30px;
+}
+main p{
+    margin-left: 2em;
+}

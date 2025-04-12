@@ -1,0 +1,120 @@
+@import url("variables.css");
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body, .wrapper{
+    background: var(--bg_body);
+}
+
+h1, h2{
+    font-family: 'Belanosima';
+    font-weight: bold;
+}
+p{
+    font-family: 'Nunito Sans';
+}
+main h1,
+main h2,
+main h3{
+    color: var(--txt_body_title);
+}
+main p{
+    color: var(--txt_body);
+}
+
+.contact_fast{
+    position: absolute;
+    top: 0px;
+    padding: 2em;
+}
+.contact_fast p,
+.title{
+    color: var(--txt_edge);
+}
+
+header{
+    background-color: var(--bg_edge);
+    margin-top: 0;
+}
+
+header button{
+    color: var(--txt_edge);
+    text-decoration: none;
+}
+
+.logo{
+    display:grid;
+    justify-content: center;
+   }
+.title{
+       text-align: center;
+   }
+.logo_img{
+       max-width: 200px;
+       display: grid;
+       margin: auto;
+       padding: 1em;
+   }
+.logo_large{
+        max-width: 300px;
+    }
+.navlist, 
+.navlist li{
+       margin: auto;
+       width: 50%;
+       display: flex;
+       justify-content: space-around;
+       list-style: none;
+       margin-bottom: 2em;
+   }
+.navlist button{
+    width: fit-content;
+    padding: 1em;
+    font-size: 1.25em;
+    border-radius: 3em;
+    transition: all .1s ease;
+
+    background: none;
+    border: none;
+   }
+.navlist button:hover{
+    scale: 110%;
+    background-color: #170633;
+    transition: all .1s ease;
+   }
+.navlist button:active{
+    scale: 95%;
+    background-color: #0d031d;
+    transition: all .1s ease;
+   }
+
+
+.homebutton button{
+    background-color: var(--btn_home);
+    border-radius: 3em;
+}
+.currentpage button{
+    background-color: #170633;
+    border-radius: 3em;
+}
+
+footer{
+    background-color: var(--bg_edge);
+    padding: 2em;
+    margin: 0 -2em -2em -2em;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+footer p, footer li{
+    color: var(--txt_edge);
+    list-style: none;      
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
